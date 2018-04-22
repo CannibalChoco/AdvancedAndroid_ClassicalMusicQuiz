@@ -118,7 +118,7 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
             DefaultTrackSelector trackSelector = new DefaultTrackSelector();
             LoadControl loadControl = new DefaultLoadControl();
             // DONE (6): Instantiate a SimpleExoPlayer object using DefaultTrackSelector and DefaultLoadControl.
-            SimpleExoPlayer simpleExoPlayer = ExoPlayerFactory.newSimpleInstance(this,
+            player = ExoPlayerFactory.newSimpleInstance(this,
                     trackSelector, loadControl);
             // DONE (7): Prepare the MediaSource using DefaultDataSourceFactory and DefaultExtractorsFactory,
             // as well as the Sample URI you passed in.
