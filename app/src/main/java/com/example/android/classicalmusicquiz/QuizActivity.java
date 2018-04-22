@@ -119,6 +119,7 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         // DONE (2): Create an inner class that extends MediaSessionCompat.Callbacks, and override
         // the onPlay(), onPause(), and onSkipToPrevious() callbacks. Pass an instance of this class
         // into the MediaSession.setCallback() method in the method you created in TODO 1.
+        initializeMediaSession();
         
         Sample answerSample = Sample.getSampleByID(this, mAnswerSampleID);
 
