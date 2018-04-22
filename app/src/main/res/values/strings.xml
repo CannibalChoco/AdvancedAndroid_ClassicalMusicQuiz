@@ -22,4 +22,15 @@
     <string name="notification_text">Press play to hear the piece!</string>
     <string name="sample_list_load_error">Error loading one or more samples!</string>
     <string name="sample_not_found_error">Sample not found!</string>
+
+    <string name="channel_playback">playback</string>
+    <string name="channel_playback_description">Playback controls</string>
+
+    <string name="notification_action_pause">Pause</string>
+    <string name="notification_action_play">Play</string>
+
+    <string name="notification_action_restart">Restart</string>
+
+    <string name="notification_playback_content_title">Guess</string>
+    <string name="notification_playback_content_text">Guess the composer</string>
 </resources>
